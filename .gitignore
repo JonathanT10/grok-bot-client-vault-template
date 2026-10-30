@@ -1,0 +1,20 @@
+# Obsidian workspace state and plugin settings (per-device, may hold tokens)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/
+.trash/
+
+# Never commit secrets or local env files
+.env
+*.env
+!client.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
