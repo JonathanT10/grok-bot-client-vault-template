@@ -23,7 +23,7 @@ envfile="${1:?usage: fill-placeholders.sh client.env | --check}"
 set -a; source "$envfile"; set +a
 keys=$(grep -oE '^[A-Z][A-Z0-9_]*=' "$envfile" | tr -d '=')
 
-find . -name '*.md' -not -path './.git/*' -not -path './scripts/*' -not -name 'README.md' -print0 |
+find . -name '*.md' -not -path './.git/*' -not -path './scripts/*' -not -path './README.md' -print0 |
 while IFS= read -r -d '' f; do
   for k in $keys; do
     v="${!k}"

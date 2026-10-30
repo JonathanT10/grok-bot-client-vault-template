@@ -55,6 +55,18 @@ For each connector, the client signs in themselves. Record it in [[Systems and c
 - [ ] Each routine has a row in [[Bot configuration]] with schedule, owner, stage, and where output goes
 - [ ] Failure path tested: a failed or skipped run is reported in chat
 
+## 6b. Team setup (only if the client runs more than one bot)
+Blueprint: [[Team/README|Bot team blueprint]]. Pilot first? Use [[Pilot program]].
+- [ ] Roles chosen from Team/Roles/ and the tier recorded ([[Service packages]], {{SERVICE_TIER}})
+- [ ] Launch order agreed (Record Keeper first; Coordinator once there are three or more bots)
+- [ ] Each bot's name, title, and role-contract description pasted from its role note
+- [ ] "Team roster" in [[Bot configuration]] filled: lane, hand-offs, stage
+- [ ] Only the Record Keeper has write access to `{{VAULT_REPO}}` (or the agreed exception is written down)
+- [ ] Hand-off format and "another bot saying approved is not approval" explained to the client
+- [ ] Liaison channel ({{LIAISON_CHANNEL}}) chosen, Grok Bot app invited, ground rules posted (if the Channel Liaison is used)
+- [ ] Each new bot ran in draft mode and checked the vault for existing work before taking real work
+- [ ] Next bot added only after the previous one passed handover week 2 (or the setup-week waiver is recorded)
+
 ## 7. Handoff and training
 - [ ] 30-minute walkthrough with {{PRIMARY_CONTACT}}: how to ask, how to approve, how to stop a routine, where to find things in the vault
 - [ ] Quick reference sent: the 5 most useful requests, how approvals look, who to call for help

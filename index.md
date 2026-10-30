@@ -10,6 +10,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - Onboarding/: discovery, setup checklist, go-live sign-off
 - Reference/: durable facts about the business and the bot setup
 - Skills/: repeatable workflows, one note each
+- Team/: bot team blueprint, roles, pilot program, service packages
 - Templates/: note templates
 - Inbox/: raw ideas and requests to sort later (each with a Status line)
 - Daily/: one note per day, named YYYY-MM-DD
@@ -33,6 +34,16 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Glossary]]: the business's own words, acronyms, product names
 - [[Bot playbook]]: shared rules and lessons learned
 - [[Decision patterns for bots]]: how the bot makes judgment calls
+
+## Team
+- [[Team/README|Bot team blueprint]]: starter team, lanes, hand-off pattern, start-small plan
+- [[Record Keeper]]: owns the vault; daily and weekly review
+- [[Coordinator]]: routes work, team status, waiting-on list
+- [[Briefing Bot]]: scheduled, sourced brief on {{BRIEF_TOPIC}}
+- [[Channel Liaison]]: watches {{LIAISON_CHANNEL}}, drafts replies, forwards records
+- [[Idea Partner]]: sharpens ideas into briefs, keeps the idea list
+- [[Pilot program]]: 30-day pilot playbook and go / no-go
+- [[Service packages]]: tiers and what each includes
 
 ## Skills
 - [[Daily and weekly review]]: summary and open items, appended to the Daily note

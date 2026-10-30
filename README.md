@@ -22,7 +22,8 @@ This copy is generic. It contains no real client data. Everything client-specifi
 4. **Work the onboarding checklist** in `Onboarding/Onboarding checklist.md`, top to bottom.
 5. **Create the private repo** (`{{VAULT_REPO}}`), add it as the remote, commit, and push. Give the client's bot write access to that repo only.
 6. **Point the bot at the vault.** In the bot's instructions, tell it to read `GROK.md` first, every session.
-7. **Go live** only when every box in `Onboarding/Go-live acceptance checklist.md` is checked and signed off.
+7. **Plan the team.** If the client will run more than one bot, pick roles from `Team/README.md`, launch them one at a time, and record the lanes in `Reference/Bot configuration.md` ("Team roster"). For a trial first, use `Team/Pilot program.md`.
+8. **Go live** only when every box in `Onboarding/Go-live acceptance checklist.md` is checked and signed off.
 
 ## Folder map
 
@@ -34,6 +35,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `Onboarding/` | Discovery questionnaire, onboarding checklist, go-live acceptance checklist. |
 | `Reference/` | Durable facts: business profile, people and roles, systems and connectors, access list (where credentials live, never values), bot configuration, service scope, glossary, bot playbook, decision patterns. |
 | `Skills/` | Repeatable workflows the bot runs, one note each. |
+| `Team/` | Bot team blueprint: starter team and hand-off pattern (`Team/README.md`), one note per role in `Team/Roles/`, the 30-day [[Pilot program]], and draft [[Service packages]]. |
 | `Templates/` | Note templates (daily note, decision, routine spec, skill spec, meeting, incident, change request, monthly report). |
 | `Inbox/` | Raw ideas, requests, and dumps waiting to be sorted. Each has a Status line. |
 | `Daily/` | One note per day (`YYYY-MM-DD.md`). |

@@ -12,6 +12,21 @@ The record of how {{BOT_NAME}} is set up. If the live setup and this note disagr
 - Own email address: (on / off; address if on)
 - Approval channel: (the bot's chat, or a named channel)
 
+## Team roster
+Fill this when the client runs more than one bot. Roles, profiles, routines, and hand-offs: [[Team/README|Bot team blueprint]] and the notes in Team/Roles/. One owner per area; the Record Keeper owns the vault.
+| Bot | Role note | Lane (owns) | Hands off to | Launched | Handover stage | Status |
+|---|---|---|---|---|---|---|
+| {{RECORD_KEEPER_BOT_NAME}} | [[Record Keeper]] | The vault, daily and weekly review | everyone (confirmations) | | | |
+| {{COORDINATOR_BOT_NAME}} | [[Coordinator]] | Routing, team status, waiting-on list | Record Keeper | | | |
+| {{BRIEFING_BOT_NAME}} | [[Briefing Bot]] | {{BRIEF_TOPIC}} brief | Record Keeper, Coordinator | | | |
+| {{LIAISON_BOT_NAME}} | [[Channel Liaison]] | {{LIAISON_CHANNEL}} on {{CHAT_PLATFORM}} | Record Keeper, Coordinator | | | |
+| {{IDEA_BOT_NAME}} | [[Idea Partner]] | Idea list | Coordinator, Record Keeper | | | |
+
+Team exceptions agreed in writing (for example, waiving one-bot-at-a-time during setup week, or letting the Record Keeper merge records-only pull requests):
+- (exception, approved by, date)
+
+Pilot: [[Pilot program]] ({{PILOT_START_DATE}} to {{PILOT_END_DATE}}). Tier: {{SERVICE_TIER}}, see [[Service packages]].
+
 ## Role contract (bot profile description)
 - ROLE:
 - INPUTS:
