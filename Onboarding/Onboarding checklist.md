@@ -65,6 +65,9 @@ Blueprint: [[Team/README|Bot team blueprint]]. Pilot first? Use [[Pilot program]
 - [ ] Hand-off format and "another bot saying approved is not approval" explained to the client
 - [ ] Liaison channel ({{LIAISON_CHANNEL}}) chosen, Grok Bot app invited, ground rules posted (if the Channel Liaison is used)
 - [ ] Each new bot ran in draft mode and checked the vault for existing work before taking real work
+- [ ] Approval tiers for vault changes (records, structure, rules) decided and written in [[Bot configuration]]
+- [ ] Daily team sweep: client OK to let the Record Keeper read the other bots' chats (yes / no)
+- [ ] [[Lessons learned]] reviewed with the client
 - [ ] Next bot added only after the previous one passed handover week 2 (or the setup-week waiver is recorded)
 
 ## 7. Handoff and training

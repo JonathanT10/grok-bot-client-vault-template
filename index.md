@@ -36,12 +36,14 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Decision patterns for bots]]: how the bot makes judgment calls
 
 ## Team
-- [[Team/README|Bot team blueprint]]: starter team, lanes, hand-off pattern, start-small plan
+- [[Team/README|Bot team blueprint]]: starter team, role contract, lanes, hand-off pattern, start-small plan
 - [[Record Keeper]]: owns the vault; daily and weekly review
 - [[Coordinator]]: routes work, team status, waiting-on list
 - [[Briefing Bot]]: scheduled, sourced brief on {{BRIEF_TOPIC}}
 - [[Channel Liaison]]: watches {{LIAISON_CHANNEL}}, drafts replies, forwards records
 - [[Idea Partner]]: sharpens ideas into briefs, keeps the idea list
+- [[Content Producer]]: drafts {{CONTENT_TYPE}}; library review and rebuild (add-on)
+- [[Lessons learned]]: generic dos and don'ts for bot teams
 - [[Pilot program]]: 30-day pilot playbook and go / no-go
 - [[Service packages]]: tiers and what each includes
 

@@ -21,9 +21,14 @@ Fill this when the client runs more than one bot. Roles, profiles, routines, and
 | {{BRIEFING_BOT_NAME}} | [[Briefing Bot]] | {{BRIEF_TOPIC}} brief | Record Keeper, Coordinator | | | |
 | {{LIAISON_BOT_NAME}} | [[Channel Liaison]] | {{LIAISON_CHANNEL}} on {{CHAT_PLATFORM}} | Record Keeper, Coordinator | | | |
 | {{IDEA_BOT_NAME}} | [[Idea Partner]] | Idea list | Coordinator, Record Keeper | | | |
+| {{CONTENT_BOT_NAME}} | [[Content Producer]] | Draft {{CONTENT_TYPE}} | Record Keeper, Coordinator, Idea Partner | | | |
+
+Vault change tiers (see [[Record Keeper]] "Approval rules"): records only = ask / no need to ask; structure = ask / no need to ask; rules = pull request reviewed by the approver unless an exception is written below.
 
 Team exceptions agreed in writing (for example, waiving one-bot-at-a-time during setup week, or letting the Record Keeper merge records-only pull requests):
 - (exception, approved by, date)
+
+Lessons for every client: [[Lessons learned]].
 
 Pilot: [[Pilot program]] ({{PILOT_START_DATE}} to {{PILOT_END_DATE}}). Tier: {{SERVICE_TIER}}, see [[Service packages]].
 
@@ -31,6 +36,8 @@ Pilot: [[Pilot program]] ({{PILOT_START_DATE}} to {{PILOT_END_DATE}}). Tier: {{S
 - ROLE:
 - INPUTS:
 - OUTPUT:
+- CONNECTORS:
+- NEVER:
 - WHEN TO ASK:
 
 ## Persona and tone
