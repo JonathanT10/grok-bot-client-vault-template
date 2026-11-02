@@ -36,6 +36,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `Reference/` | Durable facts: business profile, people and roles, systems and connectors, access list (where credentials live, never values), bot configuration, service scope, glossary, bot playbook, decision patterns. |
 | `Skills/` | Repeatable workflows the bot runs, one note each. |
 | `Team/` | Bot team blueprint: starter team and hand-off pattern (`Team/README.md`), one note per role in `Team/Roles/`, the 30-day [[Pilot program]], and draft [[Service packages]]. |
+| `Sales/` | Provider sales materials: `Pitch one-pager.md` and `Pricing sheet.md`. Prices are `{{PRICE_*}}` placeholders matching `Team/Service packages.md`; the provider fills them, never guesses. Fill with the provider section of `client.env.example` and print to PDF for prospects. Delete `Sales/` from a client's copy if the client should not see it. |
 | `Templates/` | Note templates (daily note, decision, routine spec, skill spec, meeting, incident, change request, monthly report). |
 | `Inbox/` | Raw ideas, requests, and dumps waiting to be sorted. Each has a Status line. |
 | `Daily/` | One note per day (`YYYY-MM-DD.md`). |

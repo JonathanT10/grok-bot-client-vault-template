@@ -12,6 +12,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - Skills/: repeatable workflows, one note each
 - Team/: bot team blueprint, roles, pilot program, service packages
 - Templates/: note templates
+- Sales/: provider sales materials (pitch one-pager, pricing sheet)
 - Inbox/: raw ideas and requests to sort later (each with a Status line)
 - Daily/: one note per day, named YYYY-MM-DD
 - Decisions/: dated decision records (YYYY-MM-DD-short-title)
@@ -46,6 +47,10 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Lessons learned]]: generic dos and don'ts for bot teams
 - [[Pilot program]]: 30-day pilot playbook and go / no-go
 - [[Service packages]]: tiers and what each includes
+
+## Sales (provider materials)
+- [[Pitch one-pager]]: one-page pitch for small-business owners and office managers
+- [[Pricing sheet]]: setup and monthly tiers, add-ons, pilot terms, payment terms (matches [[Service packages]])
 
 ## Skills
 - [[Daily and weekly review]]: summary and open items, appended to the Daily note

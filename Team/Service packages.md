@@ -5,7 +5,7 @@ Tags: #team #service
 Owner: {{PROVIDER_NAME}}
 Client tier: {{SERVICE_TIER}}
 
-Draft tiers for setting up and running a Grok Bot team. Prices are placeholders set by {{PROVIDER_NAME}}; none are suggested here. The client's own Grok Bot plan and connector subscriptions are billed to the client and are not part of these prices unless the agreement says so. The signed agreement and [[Service scope]] are binding; this note is the menu.
+Draft tiers for setting up and running a Grok Bot team. Prices are placeholders set by {{PROVIDER_NAME}}; none are suggested here. The client's own Grok Bot plan and connector subscriptions are billed to the client and are not part of these prices unless the agreement says so. The signed agreement and [[Service scope]] are binding; this note is the menu. The client-facing versions are in Sales/ ([[Pitch one-pager]], [[Pricing sheet]]); keep them in step with this note.
 
 ## At a glance
 | | Pilot | Starter | Team | Managed |
@@ -67,6 +67,7 @@ The provider runs the team for the client month to month.
 | Content Producer | {{PRICE_ADDON_CONTENT}} | Library review plus an agreed number of drafts per month |
 | Extra change request | {{PRICE_CHANGE_REQUEST}} | [[Change request template]] |
 | Custom skill | {{PRICE_ADDON_SKILL}} | Tested on two days' inputs before go-live |
+| Extra connector (beyond the tier) | {{PRICE_ADDON_CONNECTOR}} | Least access; a row in [[Systems and connectors]] and [[Access list]] |
 | Leadership demo or readout prep | {{PRICE_ADDON_DEMO}} | Dummy data only; see [[Pilot program]] "Live demo format" |
 | Shareable bot template | {{PRICE_ADDON_TEMPLATE}} | A copy of one bot's setup with every client detail removed, for the client to share internally |
 
