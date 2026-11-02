@@ -5,7 +5,7 @@ Tags: #team #service
 Owner: {{PROVIDER_NAME}}
 Client tier: {{SERVICE_TIER}}
 
-Draft tiers for setting up and running a Grok Bot team. Prices are placeholders set by {{PROVIDER_NAME}}; none are suggested here. The client's own Grok Bot plan and connector subscriptions are billed to the client and are not part of these prices unless the agreement says so. The signed agreement and [[Service scope]] are binding; this note is the menu. The client-facing versions are in Sales/ ([[Pitch one-pager]], [[Pricing sheet]]); keep them in step with this note.
+Draft tiers for setting up and running a Grok Bot team. Prices are placeholders set by {{PROVIDER_NAME}}; none are suggested here. The client's own Grok Bot plan and connector subscriptions are billed to the client and are not part of these prices unless the agreement says so. The signed agreement and [[Service scope]] are binding; this note is the menu. The client-facing versions are in Sales/ (`Sales/Pitch one-pager.md`, `Sales/Pricing sheet.md`; provider copy only); keep them in step with this note.
 
 ## At a glance
 | | Pilot | Starter | Team | Managed |

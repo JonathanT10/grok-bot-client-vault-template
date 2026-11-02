@@ -13,6 +13,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - Team/: bot team blueprint, roles, pilot program, service packages
 - Templates/: note templates
 - Sales/: provider sales materials (pitch one-pager, pricing sheet)
+- Business/: provider-internal plans (business plan, first week plan, customer acquisition plan); delete from client copies
 - Inbox/: raw ideas and requests to sort later (each with a Status line)
 - Daily/: one note per day, named YYYY-MM-DD
 - Decisions/: dated decision records (YYYY-MM-DD-short-title)
@@ -51,6 +52,11 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 ## Sales (provider materials)
 - [[Pitch one-pager]]: one-page pitch for small-business owners and office managers
 - [[Pricing sheet]]: setup and monthly tiers, add-ons, pilot terms, payment terms (matches [[Service packages]])
+
+## Business (provider-internal; delete from client copies)
+- [[Business plan]]: offer, target customers, packages, capacity and revenue formulas, costs, risks, 90-day milestones, KPIs
+- [[First week plan]]: day-by-day launch plan with deliverables and done-checklists
+- [[Customer acquisition plan]]: ideal customer, ranked channels, outreach templates, discovery script, funnel, objections, 30/60/90 cadence
 
 ## Skills
 - [[Daily and weekly review]]: summary and open items, appended to the Daily note
