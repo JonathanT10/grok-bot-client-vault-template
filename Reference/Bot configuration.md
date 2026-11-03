@@ -83,6 +83,7 @@ One row per routine; full spec in Projects/ from [[Routine spec template]].
 | Decision board | [[Decision board]] | | | |
 | Meeting prep and follow-up | [[Meeting prep and follow-up]] | | | |
 | Monthly client report | [[Monthly client report]] | | | |
+| Nightly fleet review (Coordinator) | [[Nightly fleet review]] | | | |
 
 ## Memory
 - The vault is the durable record. Built-in bot memory may hold preferences, but anything that matters is also written here.

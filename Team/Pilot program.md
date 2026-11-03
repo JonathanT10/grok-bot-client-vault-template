@@ -97,7 +97,7 @@ Have the [[Idea Partner]] review it first (see its "Plan review" skill).
 | Every setup step | Capture entries (Rollout log) | Record Keeper |
 | Every connector, scope, and permission | [[Access list]] | Record Keeper |
 | Every decision | Decisions/ | Record Keeper |
-| Time per task, before and after | Time log + capture entries | Pilot users, bots |
+| Time per task, before and after | Time log + capture entries; totals from the [[Time savings log]] | Pilot users, bots (rows written by {{REPORTS_BOT_NAME}} only) |
 | Routine runs, on time or late | Routine history, commit times | Coordinator / Record Keeper |
 | Output grades | Weekly review | Record Keeper |
 | Problems and fixes, same day | Capture entries, [[Bot playbook]] lessons | Whoever found it |

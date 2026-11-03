@@ -69,7 +69,8 @@ Why it matters to {{CLIENT_NAME}}: ...
 What to do: ...
 Source: [name](link)
 ```
-- **Before/after sheet** for a pilot readout: scheduled time, time saved in the vault, number of items, what each item contains, owner's time to produce (none; reads it).
+- **Before/after sheet** for a pilot readout: scheduled time, time saved from the [[Time savings log]] (measured and estimated shown separately), number of items, what each item contains, owner's time to produce (none; reads it).
+- **Time row** after each brief: send a `TIME ROW for {{REPORTS_BOT_NAME}}` (format in [[Time savings log]]) with the run time, the owner's review minutes if known, and the brief's vault path as evidence. Never write the CSV yourself.
 
 ## Hand-offs
 - **To the [[Record Keeper]]:** each brief's location, decisions the approver makes from a brief, and any new fact about the client's stack (non-urgent).

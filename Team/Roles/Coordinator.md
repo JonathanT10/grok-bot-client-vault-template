@@ -40,6 +40,7 @@ WHEN TO ASK: Before creating, pausing, or retiring a bot or routine, before chan
 | Bot-to-bot messaging | Built in | Assignments, relays, status requests |
 | Read other bots' chats | Built in, read only, if the client allows | Evidence-based status without interrupting the bots |
 | Team chat | Optional, read | Context only |
+| Vault repo issues | Read only (optional) | Open `{{RULES_ALERT_LABEL}}` issues for the nightly fleet review |
 
 ## Routines
 | Routine | Suggested schedule ({{TIMEZONE}}) | Cron | Timing | Output |
@@ -47,6 +48,7 @@ WHEN TO ASK: Before creating, pausing, or retiring a bot or routine, before chan
 | Morning team status | Weekdays, before the workday | `45 7 * * 1-5` | Flexible, never late | Status in chat |
 | Weekly team review | {{REVIEW_DAY}} | `0 14 * * 5` (set to {{REVIEW_DAY}}) | Flexible | Grades and proposals in chat; summary to Record Keeper |
 | Usage check (optional) | Daily, midday | `0 12 * * *` | Flexible | One line only if usage is off pace |
+| Nightly fleet review | Nightly, {{FLEET_REVIEW_TIME}} | `30 21 * * *` (set to {{FLEET_REVIEW_TIME}}) | Flexible, never early | `Reports/Fleet reviews/YYYY-MM-DD.md` (saved by {{RECORD_KEEPER_BOT_NAME}}), the Fleet review section on {{STATUS_PAGE}}, and a message only when something is found. Skill [[Nightly fleet review]]; spec [[Routine - Nightly fleet review]] |
 
 Morning team status prompt:
 ```
@@ -68,6 +70,8 @@ Check the plan's usage so far against the days left before reset. If usage is on
 - **Assign** (outline): pick the lane from the roster; send the hand-off note; ask for "accepted" only if timing matters; track it in the status until done.
 - **Relay a decision** (outline): quote the approver's decision, its time, and where it was made; send to the bot with priority on; tell the approver it was relayed and whether the bot confirmed.
 - **New bot onboarding** (outline): propose name, lane, profile, connectors, and routines using the role notes in Team/Roles/; check the vault for existing work on the same subject; once approved, point the new bot at GROK.md and the Bot playbook; add the roster row through the Record Keeper; the new bot drafts only until its lane is approved.
+- [[Nightly fleet review]]: nightly read of every bot's chat for repeat mistakes (patterns P1-P8), open rules-change alerts, and numbered fixes the approver answers by number ("1 yes, 4 no"). Approved fixes are relayed with the approver's words; {{RECORD_KEEPER_BOT_NAME}} logs the answers.
+- **Time rows:** routine runs that save time are sent to {{REPORTS_BOT_NAME}} as TIME ROW hand-offs ([[Time savings log]]); a status that repeats another bot's logged work is marked do_not_sum.
 - [[Idea triage]] (triage part, when the Idea Partner hands over a ready idea); [[Decision board]] for a new bot, a lane change, or a new paid connector.
 
 ## Hand-offs
@@ -90,7 +94,7 @@ Applies to: (which bot, which work)
 What changes now:
 ```
 - **Receives** ready ideas from the [[Idea Partner]] and requests from the approver.
-- **Sends** status, lessons, and roster changes to the [[Record Keeper]] (non-urgent unless it must act).
+- **Sends** status, lessons, and roster changes to the [[Record Keeper]] (non-urgent unless it must act); each night's fleet review to save, and the approver's numbered answers to log.
 - Priority (urgent) only when the other bot must act or the approver is waiting; FYIs go non-urgent.
 
 ## Approval rules

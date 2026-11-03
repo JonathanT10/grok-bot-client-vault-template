@@ -19,7 +19,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - Decisions/: dated decision records (YYYY-MM-DD-short-title)
 - People/: one note per person, only when useful and agreed
 - Projects/: one note per active project or automation
-- Reports/: monthly client reports and other periodic outputs
+- Reports/: monthly client reports and other periodic outputs; Fleet reviews/ (one per night), Time savings log.csv and its backups
 
 ## Onboarding
 - [[Discovery questionnaire]]: first conversation with {{PRIMARY_CONTACT}}
@@ -36,6 +36,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Glossary]]: the business's own words, acronyms, product names
 - [[Bot playbook]]: shared rules and lessons learned
 - [[Decision patterns for bots]]: how the bot makes judgment calls
+- [[Time savings log]]: the one time-saved CSV, its single writer ({{REPORTS_BOT_NAME}}), and the evidence, estimate, and overlap rules
 
 ## Team
 - [[Team/README|Bot team blueprint]]: starter team, role contract, lanes, hand-off pattern, start-small plan
@@ -68,6 +69,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Decision board]]: five-advisor review of a big or hard-to-undo decision
 - [[Meeting prep and follow-up]]: brief before a meeting, notes and action items after
 - [[Monthly client report]]: what the bot did this month, with sources
+- [[Nightly fleet review]]: Coordinator's nightly read of every bot's chat for repeat mistakes, with numbered fixes
 
 ## Templates
 - [[Daily note template]]
@@ -78,6 +80,9 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Incident note template]]
 - [[Change request template]]
 - [[Monthly report template]]
+- [[Fleet review]]: nightly fleet review file (saved to Reports/Fleet reviews/YYYY-MM-DD.md)
+- Time savings log.csv: header row for Reports/Time savings log.csv
 
 ## Active projects
-- (none yet; add one line per project with a link and an owner)
+- [[Routine - Nightly fleet review]]: proposed starter routine, owner {{COORDINATOR_BOT_NAME}} (delete if the client runs one bot)
+- (add one line per project with a link and an owner)

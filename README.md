@@ -41,14 +41,14 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `Team/` | Bot team blueprint: starter team and hand-off pattern (`Team/README.md`), one note per role in `Team/Roles/`, the 30-day [[Pilot program]], and draft [[Service packages]]. |
 | `Sales/` | Provider sales materials: `Pitch one-pager.md` and `Pricing sheet.md`. Prices are `{{PRICE_*}}` placeholders matching `Team/Service packages.md`; the provider fills them, never guesses. Fill with the provider section of `client.env.example` and print to PDF for prospects. Provider-only: delete `Sales/` from every client copy (see step 1). |
 | `Business/` | Provider-internal plans: `Business plan.md`, `First week plan.md`, `Customer acquisition plan.md`. Demo kit: `Demo script.md` (timed demo, about 5:45, with the pilot ask and likely questions) and `Demo vault/`, a filled example vault for the **fictional** Example Landscaping LLC (example data only, every file labelled; its `client.env` is the one env file committed on purpose; see `Business/Demo vault/README.md` to copy it out). The demo vault has no `{{UPPER_CASE}}` placeholders, so `--check` is unaffected. All numbers are `{{PRICE_*}}`, `{{CAPACITY_*}}`, `{{HOURS_*}}`, `{{COST_*}}`, or `{{TARGET_*}}` placeholders the provider sets. Lower-case fields such as `{{prospect_first_name}}` in the outreach templates are filled by hand per message and are left alone by the script. **Delete `Business/` (and `Sales/`) from every client copy.** |
-| `Templates/` | Note templates (daily note, decision, routine spec, skill spec, meeting, incident, change request, monthly report). |
+| `Templates/` | Note templates (daily note, decision, routine spec, skill spec, meeting, incident, change request, monthly report, fleet review) and `Time savings log.csv` (header row only). |
 | `Inbox/` | Raw ideas, requests, and dumps waiting to be sorted. Each has a Status line. |
 | `Daily/` | One note per day (`YYYY-MM-DD.md`). |
 | `Decisions/` | Dated decision records (`YYYY-MM-DD-short-title.md`). |
 | `People/` | One note per person, only when context is useful and the client agreed. |
 | `Projects/` | One note per active project or automation. |
-| `Reports/` | Monthly client reports and other periodic outputs. |
-| `scripts/` | Setup helpers: `fill-placeholders.sh` (placeholder fill and check) and `check-no-client-data.sh` (client-data and secrets scan, with `denylist.example.txt` showing the denylist format). Not used by the bot day to day. |
+| `Reports/` | Monthly client reports and other periodic outputs. `Reports/Fleet reviews/YYYY-MM-DD.md` holds the Coordinator's [[Nightly fleet review]]; `Reports/Time savings log.csv` is the one time-saved log (single writer {{REPORTS_BOT_NAME}}; rules in `Reference/Time savings log.md`), backed up to `Reports/Time savings backups/` before every write. |
+| `scripts/` | Setup helpers: `fill-placeholders.sh` (placeholder fill and check) and `check-no-client-data.sh` (client-data and secrets scan, with `denylist.example.txt` showing the denylist format), and `time-savings-summary.sh` (totals net minutes from the time-savings log, excluding rows without evidence, overlaps, and duplicates; estimates shown separately). Not used by the bot day to day. |
 | `.obsidian/` | Minimal Obsidian config: daily notes in `Daily/`, templates from `Templates/`. No community plugins are bundled; add a git sync plugin per device if the client wants one. |
 
 ## Rules that never change between clients

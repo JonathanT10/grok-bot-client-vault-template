@@ -14,6 +14,7 @@ A once-a-month report for {{PRIMARY_CONTACT}} on what {{BOT_NAME}} did, what it 
 - Routine run history (from the bot's routine list); routine rows in [[Bot configuration]].
 - Incidents and change requests filed this month.
 - "Before" numbers in [[Business profile]].
+- [[Time savings log]] totals for the month (`./scripts/time-savings-summary.sh --from YYYY-MM-01 --to YYYY-MM-DD`): measured first, estimates labelled, excluded rows not counted.
 - [[Access list]], rechecked at the source.
 
 ## Steps

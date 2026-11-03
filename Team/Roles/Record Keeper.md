@@ -64,7 +64,7 @@ Run the Daily and weekly review skill (daily part) in the {{CLIENT_NAME}} vault.
 
 Weekly review prompt:
 ```
-Run the Daily and weekly review skill (weekly part) in the {{CLIENT_NAME}} vault. Cover the last 7 days. Group log lines by writer, grade each routine's output as USED, REWORKED, or IGNORED from the record only, list Inbox items to triage, flag stalled projects and stale notes, list due or overdue follow-ups, total the time saved recorded in capture entries, suggest at most 3 focus items, and end with "Decisions waiting on {{PRIMARY_CONTACT}}". Recheck any gap at its source before reporting it. Append to today's Daily note, log, commit, push, and send a five-line summary in chat.
+Run the Daily and weekly review skill (weekly part) in the {{CLIENT_NAME}} vault. Cover the last 7 days. Group log lines by writer, grade each routine's output as USED, REWORKED, or IGNORED from the record only, list Inbox items to triage, flag stalled projects and stale notes, list due or overdue follow-ups, total the time saved with scripts/time-savings-summary.sh on Reports/Time savings log.csv (measured and estimated separately; excluded rows listed), suggest at most 3 focus items, and end with "Decisions waiting on {{PRIMARY_CONTACT}}". Recheck any gap at its source before reporting it. Append to today's Daily note, log, commit, push, and send a five-line summary in chat.
 ```
 
 Monthly secret scan prompt:
@@ -76,6 +76,8 @@ Scan the whole {{VAULT_REPO}} repo, including history, for anything that looks l
 - [[Daily and weekly review]], [[Monthly client report]], [[Meeting prep and follow-up]] (notes and action items part)
 - **Daily team sweep** (outline): pull; list the bots on the roster; for each, read messages since the last sweep time (kept in the last sweep's log line); extract record-worthy items; de-duplicate against the vault; write; commit; report only if something was new.
 - **Capture entry** (format below) for every setup and pilot step.
+- **Fleet reviews** (when a [[Coordinator]] runs the [[Nightly fleet review]]): save each night's review to `Reports/Fleet reviews/YYYY-MM-DD.md` from the [[Fleet review]] template, replace the Fleet review section on {{STATUS_PAGE}}, and log the approver's numbered answers ("1 yes, 4 no") in the review's "Owner decisions" section and log.md, with the time and where they were said. Never log an answer the approver did not give in chat.
+- **Time savings log** (when this bot is {{REPORTS_BOT_NAME}}, the default): the only writer of `Reports/Time savings log.csv`. Back up before every write, check each row's evidence path exists, label estimates, mark overlaps do_not_sum. Rules: [[Time savings log]].
 - **Secret scan** (outline): search the working tree and history with a pattern list; report location and type only; never echo the value.
 - **Vault change by pull request** (outline): branch from the latest main; make the change; open a pull request with a summary; check it is mergeable; merge only if the change is records-only and the client allowed self-merge, otherwise send the link to the approver.
 - **Shareable bot template** (optional): when the client wants to share this bot's setup, keep only how it works (vault conventions, capture format, routines) and strip every person, company, and system detail.
@@ -118,6 +120,8 @@ Urgent: no (yes only if I must act now)
 ```
 - Records it, then confirms back in one line with a link. A pure FYI needs no reply.
 - Rejects anything with a password, token, key, full account number, or customer data: records the fact without the sensitive part and tells the sender.
+
+**Receives** time rows as `TIME ROW for {{REPORTS_BOT_NAME}}` hand-offs (format in [[Time savings log]]) when this bot is the reports writer; other bots never write the CSV.
 
 **Sends** to the [[Coordinator]]: open items and follow-ups found during the weekly review; sweep findings that need another bot.
 

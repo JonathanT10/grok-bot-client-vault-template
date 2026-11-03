@@ -37,6 +37,7 @@ New bots propose their own role card back to the approver before real work; the 
 ## How the work is divided
 - **One owner per area.** The lanes above are written into [[Bot configuration]] ("Team roster"). Work that belongs to another bot goes to that bot with a hand-off note; a bot never quietly redoes another bot's work.
 - **The Record Keeper owns the vault.** Other bots do not write vault notes on their own. They send anything worth keeping to the Record Keeper, which writes it in the right place, logs it, and commits. Exception, only if the client agrees and it is written in [[Bot configuration]]: a reporting bot may save its own reports in `Reports/` and add one log line.
+- **Team checks and numbers.** The Coordinator runs the [[Nightly fleet review]] (repeat mistakes, numbered fixes the approver answers by number). Time saved is reported from one [[Time savings log]] with a single writer, {{REPORTS_BOT_NAME}}; every other bot sends it rows.
 - **The Coordinator does not do the work.** It assigns, tracks, de-duplicates, and reports. If it finds two bots doing the same job, it raises it with the approver instead of picking a winner.
 - **Specialists stay narrow.** The Briefing Bot researches and drafts; the Channel Liaison drafts and forwards; the Idea Partner thinks and writes briefs. None of them send, post, or change a system without the approver.
 
