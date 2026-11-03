@@ -1,0 +1,24 @@
+# FICTIONAL EXAMPLE DATA. Example Landscaping LLC and its AP team are made up; every number is example data. Delete this line before opening the file as a CSV.
+date,routine,run_id,baseline_min,baseline_source,bot_min,review_min,net_min,flags_raised,flags_correct,flags_missed,flag_accuracy,recall,evidence_path,notes
+2026-03-09,AP inbox FYI digest,ap-fyi-2026-03-09,35,measured,3,14,18,6,4,1,0.67,0.80,Reports/Accounts payable pilot/2026-03-09 FYI digest.md,
+2026-03-09,Invoice approval follow-ups,ap-trk-2026-03-09,50,measured,4,22,24,7,5,1,0.71,0.83,Reports/Accounts payable pilot/2026-03-09 Tracker status.md,
+2026-03-09,Weekly vendor notice digest,ap-ntc-2026-03-09,60,owner estimate,6,18,36,3,3,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-09 Notice digest.md,baseline is an owner estimate (no time log for notices)
+2026-03-10,AP inbox FYI digest,ap-fyi-2026-03-10,35,measured,3,12,20,5,4,0,0.80,1.00,Reports/Accounts payable pilot/2026-03-10 FYI digest.md,
+2026-03-10,Invoice approval follow-ups,ap-trk-2026-03-10,50,measured,4,20,26,6,5,0,0.83,1.00,Reports/Accounts payable pilot/2026-03-10 Tracker status.md,
+2026-03-11,AP inbox FYI digest,ap-fyi-2026-03-11,35,measured,3,11,21,4,4,1,1.00,0.80,Reports/Accounts payable pilot/2026-03-11 FYI digest.md,
+2026-03-11,Invoice approval follow-ups,ap-trk-2026-03-11,50,measured,4,18,28,5,5,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-11 Tracker status.md,
+2026-03-12,AP inbox FYI digest,ap-fyi-2026-03-12,35,measured,3,10,22,5,5,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-12 FYI digest.md,
+2026-03-12,Invoice approval follow-ups,ap-trk-2026-03-12,50,measured,4,17,29,6,5,1,0.83,0.83,Reports/Accounts payable pilot/2026-03-12 Tracker status.md,
+2026-03-13,AP inbox FYI digest,ap-fyi-2026-03-13,35,measured,3,9,23,3,3,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-13 FYI digest.md,
+2026-03-13,Invoice approval follow-ups,ap-trk-2026-03-13,50,measured,4,15,31,4,4,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-13 Tracker status.md,
+2026-03-16,AP inbox FYI digest,ap-fyi-2026-03-16,35,measured,3,9,23,6,5,0,0.83,1.00,Reports/Accounts payable pilot/2026-03-16 FYI digest.md,
+2026-03-16,Invoice approval follow-ups,ap-trk-2026-03-16,50,measured,4,16,30,5,5,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-16 Tracker status.md,
+2026-03-16,Weekly vendor notice digest,ap-ntc-2026-03-16,60,owner estimate,6,14,40,2,2,1,1.00,0.67,Reports/Accounts payable pilot/2026-03-16 Notice digest.md,baseline is an owner estimate (no time log for notices)
+2026-03-17,AP inbox FYI digest,ap-fyi-2026-03-17,35,measured,3,8,24,4,4,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-17 FYI digest.md,
+2026-03-17,Invoice approval follow-ups,ap-trk-2026-03-17,50,measured,4,14,32,6,6,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-17 Tracker status.md,
+2026-03-18,AP inbox FYI digest,ap-fyi-2026-03-18,35,measured,3,8,24,5,5,1,1.00,0.83,Reports/Accounts payable pilot/2026-03-18 FYI digest.md,
+2026-03-18,Invoice approval follow-ups,ap-trk-2026-03-18,50,measured,4,13,33,4,4,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-18 Tracker status.md,
+2026-03-19,AP inbox FYI digest,ap-fyi-2026-03-19,35,measured,3,7,25,3,3,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-19 FYI digest.md,
+2026-03-19,Invoice approval follow-ups,ap-trk-2026-03-19,50,measured,4,13,33,5,5,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-19 Tracker status.md,
+2026-03-20,AP inbox FYI digest,ap-fyi-2026-03-20,35,measured,3,8,24,4,4,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-20 FYI digest.md,
+2026-03-20,Invoice approval follow-ups,ap-trk-2026-03-20,50,measured,4,12,34,3,3,0,1.00,1.00,Reports/Accounts payable pilot/2026-03-20 Tracker status.md,

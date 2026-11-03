@@ -7,7 +7,7 @@ Pilot sponsor: {{PRIMARY_CONTACT}}
 Provider: {{PROVIDER_NAME}}
 Pilot dates: {{PILOT_START_DATE}} to {{PILOT_END_DATE}}; readout {{PILOT_READOUT_DATE}}
 
-A generic 30-day trial of a small Grok Bot team, built so the client can decide go / no-go on evidence instead of impressions. Run it on top of the normal [[Onboarding checklist]]; the gradual handover in [[GROK]] still applies to every routine. Lessons from past pilots: [[Lessons learned]].
+For a shorter, two-week, read-only pilot scoped to one department, use the [[Onboarding/Department pilot kit/README|Department pilot kit]] instead (or as the first two weeks of this one). A generic 30-day trial of a small Grok Bot team, built so the client can decide go / no-go on evidence instead of impressions. Run it on top of the normal [[Onboarding checklist]]; the gradual handover in [[GROK]] still applies to every routine. Lessons from past pilots: [[Lessons learned]].
 
 ## Principles
 - **Baseline first.** No bot goes live on piloted work before the "before" numbers are captured.
@@ -34,7 +34,7 @@ Liaison channel: {{LIAISON_CHANNEL}} on {{CHAT_PLATFORM}}, for questions, update
 
 ## Before kickoff (the proposal)
 The pilot usually starts with a short proposal the sponsor takes to leadership. It should:
-- Name the top 3-5 use cases, each with the "before" (who, how often, how long) and what the bot would produce.
+- Name the top 3-5 use cases, each with the "before" (who, how often, how long) and what the bot would produce. The [[Department intake questionnaire]] and [[Ranked opportunities]] scoring rubric work here too.
 - Show the cost and the break-even (below), with the client's own rates.
 - Label every time-saved figure as estimate or measured.
 - State the guardrails: draft only, what is off-limits, how data is handled.

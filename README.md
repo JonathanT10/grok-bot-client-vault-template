@@ -35,7 +35,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `GROK.md` | Operating rules the client's bot follows in this vault. Read first, every time. |
 | `index.md` | Map of the vault: folders, key notes, active projects. |
 | `log.md` | One line per meaningful change, newest at the bottom, prefixed with who made it. |
-| `Onboarding/` | Discovery questionnaire, onboarding checklist, go-live acceptance checklist. |
+| `Onboarding/` | Discovery questionnaire, onboarding checklist, go-live acceptance checklist. `Onboarding/Department pilot kit/`: a two-week, read-only, draft-only pilot for one department: intake questionnaire, ranked opportunities (scoring rubric and ACTION / TARGET / REASON / COST / CONSEQUENCES asks), three starter routine specs (daily FYI digest, status tracker follow-ups, weekly notice digest), and a measurement sheet (`.md` plus `.csv`) with go / no-go thresholds as `{{DEPT_GO_*}}` placeholders. A filled fictional example is in `Business/Demo vault/Department pilot - Accounts payable/`. |
 | `Reference/` | Durable facts: business profile, people and roles, systems and connectors, access list (where credentials live, never values), bot configuration, service scope, glossary, bot playbook, decision patterns. |
 | `Skills/` | Repeatable workflows the bot runs, one note each. |
 | `Team/` | Bot team blueprint: starter team and hand-off pattern (`Team/README.md`), one note per role in `Team/Roles/`, the 30-day [[Pilot program]], and draft [[Service packages]]. |

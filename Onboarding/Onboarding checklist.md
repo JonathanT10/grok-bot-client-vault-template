@@ -70,6 +70,16 @@ Blueprint: [[Team/README|Bot team blueprint]]. Pilot first? Use [[Pilot program]
 - [ ] [[Lessons learned]] reviewed with the client
 - [ ] Next bot added only after the previous one passed handover week 2 (or the setup-week waiver is recorded)
 
+## 6c. Department pilot (only if the client starts with one department)
+Kit: [[Onboarding/Department pilot kit/README|Department pilot kit]] ({{DEPT_NAME}}, {{DEPT_PILOT_START_DATE}} to {{DEPT_PILOT_END_DATE}}).
+- [ ] [[Department intake questionnaire]] done with {{DEPT_LEAD}}; one-week time log kept before any routine runs
+- [ ] [[Ranked opportunities]] scored with the rubric; at most three routines picked; risk-3 tasks parked
+- [ ] Each top opportunity's ACTION / TARGET / REASON / COST / CONSEQUENCES ask answered yes by {{PRIMARY_CONTACT}} in chat
+- [ ] Read-only scopes connected and recorded in [[Access list]]; routines are draft-only (never send, post, or edit a source system)
+- [ ] Go / no-go thresholds (`DEPT_GO_*`) agreed and recorded in a decision record before day 1
+- [ ] Measurement sheet started in `Reports/{{DEPT_NAME}} pilot/` with {{REPORTS_BOT_NAME}} as its only writer; every run sends a TIME ROW
+- [ ] Day-10 totals and go / no-go recorded in [[Pilot measurement sheet]] and a decision record
+
 ## 7. Handoff and training
 - [ ] 30-minute walkthrough with {{PRIMARY_CONTACT}}: how to ask, how to approve, how to stop a routine, where to find things in the vault
 - [ ] Quick reference sent: the 5 most useful requests, how approvals look, who to call for help

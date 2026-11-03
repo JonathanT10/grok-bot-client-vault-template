@@ -22,5 +22,8 @@ Map of the Example Landscaping LLC demo vault. Ops Assistant reads this right af
 - [[2026-03-02 Weekly brief]]: Weekly Brief, sourced, with confirmed / reported labels
 - [[2026-02 Monthly report]]: pilot month summary with measured time saved
 
+## Department pilot (accounts payable)
+- [[Department pilot - Accounts payable/README|AP department pilot]]: a filled two-week department pilot for the fictional AP team (intake, ranked opportunities, three routines, measurement sheet, readout)
+
 ## Log
 - [[log]]

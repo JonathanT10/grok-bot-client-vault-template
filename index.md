@@ -7,7 +7,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[log]]: one-line pointers to every meaningful change
 
 ## Folders
-- Onboarding/: discovery, setup checklist, go-live sign-off
+- Onboarding/: discovery, setup checklist, go-live sign-off; Department pilot kit/ for a two-week department pilot
 - Reference/: durable facts about the business and the bot setup
 - Skills/: repeatable workflows, one note each
 - Team/: bot team blueprint, roles, pilot program, service packages
@@ -25,6 +25,11 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Discovery questionnaire]]: first conversation with {{PRIMARY_CONTACT}}
 - [[Onboarding checklist]]: accounts, connectors, routines, skills, vault repo, training
 - [[Go-live acceptance checklist]]: what must be true before {{BOT_NAME}} works unsupervised
+- [[Onboarding/Department pilot kit/README|Department pilot kit]]: two-week, read-only, draft-only pilot for one department ({{DEPT_NAME}})
+  - [[Department intake questionnaire]]: mailboxes, reports, trackers, meetings, hand-offs, time per task, access
+  - [[Ranked opportunities]]: scoring rubric, ranked table, approval asks
+  - [[Routine - Daily FYI digest]], [[Routine - Status tracker follow-ups]], [[Routine - Weekly notice digest]]: starter routine specs
+  - [[Pilot measurement sheet]]: daily rows per routine (with `Pilot measurement sheet.csv`) and the go / no-go
 
 ## Reference
 - [[Business profile]]: what {{CLIENT_NAME}} does, hours, customers, priorities
@@ -60,6 +65,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Customer acquisition plan]]: ideal customer, ranked channels, outreach templates, discovery script, funnel, objections, 30/60/90 cadence
 - [[Demo script]]: timed demo (about 5:45) with talk track, what to show, the pilot ask, and likely questions
 - [[Business/Demo vault/README|Demo vault]]: filled example vault for the fictional Example Landscaping LLC (example data only); copy it out to demo
+- [[Business/Demo vault/Department pilot - Accounts payable/README|AP department pilot example]]: the department pilot kit filled for the fictional AP team (example data only)
 
 ## Skills
 - [[Daily and weekly review]]: summary and open items, appended to the Daily note
