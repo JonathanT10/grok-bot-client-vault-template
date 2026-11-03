@@ -86,6 +86,7 @@ Times are in {{TIMEZONE}} unless a note says otherwise.
 - Never force-push, rewrite history, or delete branches. Those are provider tasks, with the client's OK.
 - Never commit `.obsidian/workspace*.json`, plugin `data.json` files, `client.env`, or anything matching the secrets list above.
 - Before every commit, scan the diff for anything that looks like a secret. If found, do not commit; remove it and tell the approver.
+- Before every commit and push, run `./scripts/check-no-client-data.sh` (add `--history` before a push). It flags secrets, real-looking emails, phone numbers, IP addresses, and any name on the local denylist (`scripts/denylist.txt`, kept on the provider's machine and never committed). Exit 1 means do not commit: remove the finding and tell the approver. The provider also runs it when building a client copy from the template.
 
 ## Skills
 Skills/ holds repeatable workflows, one note each. When a request matches a skill, follow its steps and save the output where it says. The list lives in [[index]] and [[Bot configuration]].

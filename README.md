@@ -18,6 +18,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
    ```bash
    ./scripts/fill-placeholders.sh client.env      # replaces {{UPPER_CASE}} tokens
    ./scripts/fill-placeholders.sh --check          # lists any placeholders still left
+   ./scripts/check-no-client-data.sh --history     # no other client's data, no secrets (see below)
    ```
    Lower-case tokens such as `{{date:YYYY-MM-DD}}` and `{{title}}` are Obsidian template variables. The script leaves them alone on purpose.
 3. **Run discovery** with the client using `Onboarding/Discovery questionnaire.md`. Copy the answers into the Reference/ notes it points to.
@@ -39,7 +40,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `Skills/` | Repeatable workflows the bot runs, one note each. |
 | `Team/` | Bot team blueprint: starter team and hand-off pattern (`Team/README.md`), one note per role in `Team/Roles/`, the 30-day [[Pilot program]], and draft [[Service packages]]. |
 | `Sales/` | Provider sales materials: `Pitch one-pager.md` and `Pricing sheet.md`. Prices are `{{PRICE_*}}` placeholders matching `Team/Service packages.md`; the provider fills them, never guesses. Fill with the provider section of `client.env.example` and print to PDF for prospects. Provider-only: delete `Sales/` from every client copy (see step 1). |
-| `Business/` | Provider-internal plans: `Business plan.md`, `First week plan.md`, `Customer acquisition plan.md`. All numbers are `{{PRICE_*}}`, `{{CAPACITY_*}}`, `{{HOURS_*}}`, `{{COST_*}}`, or `{{TARGET_*}}` placeholders the provider sets. Lower-case fields such as `{{prospect_first_name}}` in the outreach templates are filled by hand per message and are left alone by the script. **Delete `Business/` (and `Sales/`) from every client copy.** |
+| `Business/` | Provider-internal plans: `Business plan.md`, `First week plan.md`, `Customer acquisition plan.md`. Demo kit: `Demo script.md` (timed demo, about 5:45, with the pilot ask and likely questions) and `Demo vault/`, a filled example vault for the **fictional** Example Landscaping LLC (example data only, every file labelled; its `client.env` is the one env file committed on purpose; see `Business/Demo vault/README.md` to copy it out). The demo vault has no `{{UPPER_CASE}}` placeholders, so `--check` is unaffected. All numbers are `{{PRICE_*}}`, `{{CAPACITY_*}}`, `{{HOURS_*}}`, `{{COST_*}}`, or `{{TARGET_*}}` placeholders the provider sets. Lower-case fields such as `{{prospect_first_name}}` in the outreach templates are filled by hand per message and are left alone by the script. **Delete `Business/` (and `Sales/`) from every client copy.** |
 | `Templates/` | Note templates (daily note, decision, routine spec, skill spec, meeting, incident, change request, monthly report). |
 | `Inbox/` | Raw ideas, requests, and dumps waiting to be sorted. Each has a Status line. |
 | `Daily/` | One note per day (`YYYY-MM-DD.md`). |
@@ -47,7 +48,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `People/` | One note per person, only when context is useful and the client agreed. |
 | `Projects/` | One note per active project or automation. |
 | `Reports/` | Monthly client reports and other periodic outputs. |
-| `scripts/` | Setup helpers (placeholder fill and check). Not used by the bot day to day. |
+| `scripts/` | Setup helpers: `fill-placeholders.sh` (placeholder fill and check) and `check-no-client-data.sh` (client-data and secrets scan, with `denylist.example.txt` showing the denylist format). Not used by the bot day to day. |
 | `.obsidian/` | Minimal Obsidian config: daily notes in `Daily/`, templates from `Templates/`. No community plugins are bundled; add a git sync plugin per device if the client wants one. |
 
 ## Rules that never change between clients
@@ -56,3 +57,18 @@ This copy is generic. It contains no real client data. Everything client-specifi
 - **Client data stays in the client's vault.** Never copy one client's notes, names, or numbers into another client's vault or back into this template.
 - **The client approves anything that sends, spends, publishes, deletes, changes permissions, or connects or disconnects an account.**
 - Improvements that apply to every client go back into this template as generic text, with no client details.
+
+## Check for client data before every commit and push
+
+This template must stay generic. Before **every commit and push** to the template, and every time you **build a client copy**, run:
+
+```bash
+./scripts/check-no-client-data.sh              # working tree
+./scripts/check-no-client-data.sh --history    # also every commit's content and every commit message
+./scripts/check-no-client-data.sh --include-pdf ../exported-pdfs   # also the text of PDFs you hand out
+```
+
+- It reads a **denylist** of real names (clients, prospects, people, places, vendors) from `scripts/denylist.txt`, or `--denylist PATH`, or `DENYLIST_FILE`. That file holds real names, so the provider keeps it **locally only**; it is git-ignored and must never be committed. Start one from `scripts/denylist.example.txt`, which documents the format (whole word by default, `substr:` for substrings, `re:` for an extended regex; all case-insensitive).
+- Built-in pattern checks (turn off with `--no-patterns`) flag email addresses outside example.com / example.org / example.net, phone numbers outside the fictional 555-0100 to 555-0199 range, IPv4 addresses outside the documentation ranges and 127.0.0.1 / 0.0.0.0, and strings that look like API keys, tokens, or private keys.
+- Exit code 0 means clean, 1 means findings (each printed as `file:line: [kind] detail`), 2 means a usage error. Fix every finding before committing. A finding in `--history` means the data is already in a commit: stop and treat removing it as a provider task; do not push.
+- In a client copy, put the *other* clients' names in the denylist so nothing crosses between vaults.

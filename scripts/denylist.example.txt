@@ -1,0 +1,41 @@
+# denylist.example.txt: FORMAT EXAMPLE ONLY. Every entry below is generic and fictional.
+#
+# The real list lives at scripts/denylist.txt (or wherever DENYLIST_FILE / --denylist points).
+# It holds real client, prospect, person, place, and vendor names, so the provider keeps it
+# LOCALLY only. scripts/denylist.txt is git-ignored; never commit it, never paste it into a
+# note, issue, chat, or commit message.
+#
+# Start one:  cp scripts/denylist.example.txt scripts/denylist.txt   (then replace the examples)
+# Run:        scripts/check-no-client-data.sh            (uses scripts/denylist.txt)
+#             scripts/check-no-client-data.sh --history  (also every commit and commit message)
+#
+# Format: one entry per line. Lines starting with '#' and blank lines are ignored.
+# Leading and trailing spaces are trimmed. All matching is case-insensitive.
+#
+#   Term            whole-word match ("Acme" matches "acme" and "ACME's", not "Acmeville")
+#   substr:Term     substring match ("substr:acme" also matches "Acmeville" and "acmecorp.io")
+#   re:REGEX        extended regex; stay within what grep -E, rg, and git grep all accept
+
+# Example client and company names (whole word)
+# Acme Corp
+# Globex
+# Initech
+
+# Example people (first and last names you have worked with)
+# Jane Placeholder
+# Placeholder
+
+# Example places (cities, neighborhoods, street names you serve)
+# Springfield
+
+# Example vendor or product names tied to a client's setup
+# Example Vendor Inc
+
+# Substring: catches domains, handles, and run-together forms
+# substr:acmecorp
+# substr:globex-
+
+# Regex: client domain in any TLD, internal ticket keys, an account number shape
+# re:acme(corp)?\.(com|net|io)
+# re:\bINT-[0-9]{3,}\b
+# re:\b[0-9]{4}-ACME\b
