@@ -10,6 +10,8 @@ Working notes on what the service covers. The signed agreement is the binding do
 - Service tier: {{SERVICE_TIER}}
 - Start date: {{START_DATE}}; go-live target: {{GO_LIVE_DATE}}
 - Signed agreement kept at: (location, not a copy)
+- Provider implementer: {{PROVIDER_IMPLEMENTER}}; access kept after handoff: {{PROVIDER_RETAINED_ACCESS}}
+- 30-day review date: (from [[30-day review template]])
 
 ## In scope
 - Setup: vault, bot configuration, connectors listed in [[Systems and connectors]]

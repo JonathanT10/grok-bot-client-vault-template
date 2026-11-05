@@ -11,6 +11,27 @@ The record of how {{BOT_NAME}} is set up. If the live setup and this note disagr
 - Time zone: {{TIMEZONE}}
 - Own email address: (on / off; address if on)
 - Approval channel: (the bot's chat, or a named channel)
+- Default output channel for routines:
+- Channels where the bot must not post:
+- Rules the client signed: [[Guardrails policy]]
+
+## Standing instructions (paste into the bot's instructions)
+```text
+You are {{BOT_NAME}} for {{CLIENT_NAME}}. Read GROK.md in the vault first, every session, and follow it.
+You help (audience) with (primary purpose).
+Draft outgoing emails and messages for human review; never send them on your own.
+Before anything that sends, spends, publishes, deletes, submits a form, changes permissions, or connects or disconnects an account, ask with ACTION, TARGET, REASON, COST, CONSEQUENCES and wait for an approver.
+Never ask for or repeat passwords or other secrets in chat.
+If you are unsure whether something is allowed, ask {{BOT_OWNER}}.
+```
+
+## Access and sharing
+- Sharing model: personal (one user) / team (named group) / company-wide
+- Primary users: | Secondary users: | Must not have access:
+- Owner: {{BOT_OWNER}}. Managers: {{BOT_MANAGERS}}.
+- Provider setup access: {{PROVIDER_IMPLEMENTER}}; reduced at handoff to: {{PROVIDER_RETAINED_ACCESS}}
+- Adding or removing a user: (process). Changing access always needs approval.
+- Offboarding: when someone leaves, (who) removes their bot access within (time); see [[Access list]] "Review rhythm".
 
 ## Team roster
 Fill this when the client runs more than one bot. Roles, profiles, routines, and hand-offs: [[Team/README|Bot team blueprint]] and the notes in Team/Roles/. One owner per area; the Record Keeper owns the vault.
@@ -59,7 +80,7 @@ Always needs an approver, at every handover stage:
 
 Client-specific additions:
 - Never:
-- Allowed without asking after week 4 (list exactly):
+- Allowed without asking after week 4 (list exactly; internal routine posts only if [[Guardrails policy]] section 3a is signed, destinations by name):
 - Spending limit: none unless written here
 - Approval request format: ACTION, TARGET, REASON, COST, CONSEQUENCES
 
@@ -85,8 +106,15 @@ One row per routine; full spec in Projects/ from [[Routine spec template]].
 | Monthly client report | [[Monthly client report]] | | | |
 | Nightly fleet review (Coordinator) | [[Nightly fleet review]] | | | |
 
+Reference documents the bot should use (procedures, FAQs, policies):
+| Document | Location | Owner | Review every |
+|---|---|---|---|
+
 ## Memory
 - The vault is the durable record. Built-in bot memory may hold preferences, but anything that matters is also written here.
+- Shared facts (hours, addresses, approved templates, glossary, escalation contacts) go in the vault Reference notes, not in shared memory. Memory holds only personal preferences and pointers.
+- Never stored anywhere: passwords, API keys, one-time codes, card numbers, SSNs, PHI, privileged legal content.
+- Vault and shared facts owner: {{MEMORY_OWNER}}; reviewed every (cadence). How users ask the bot to forget something:
 - Memory items the client asked to be kept or forgotten:
 
 ## Change history

@@ -20,6 +20,7 @@ Work top to bottom. Check a box only when there is proof (a link, a screenshot, 
 - [ ] Remote added, first commit pushed to `main`
 - [ ] Bot's git access is limited to this repo (fine-grained token or deploy key, scoped to one repo); where that credential lives is recorded in [[Access list]]
 - [ ] Client knows how to open the vault (Obsidian or the repo web view)
+- [ ] Second-person review by another {{PROVIDER_NAME}} team member: completeness, least privilege, consistency between notes
 
 ## 2. Accounts
 - [ ] Grok Bot account and plan set up; billing owner recorded in [[Service scope]]
@@ -36,12 +37,17 @@ For each connector, the client signs in themselves. Record it in [[Systems and c
 - [ ] Chat
 - [ ] Other connectors from discovery:
 - [ ] Each connector's write abilities (send, share, delete) listed, and which ones the bot is allowed to use
+- [ ] Scope limits and MFA on each connector account recorded in [[Systems and connectors]]
+- [ ] Off-limits systems confirmed not connected
 - [ ] Unused connectors not installed (least access)
 
 ## 4. Bot configuration
 - [ ] Persona, tone, and sign-off set from discovery ([[Bot configuration]])
 - [ ] Bot instructions say: read GROK.md first, follow the vault rules
 - [ ] Approval rules written and confirmed by {{PRIMARY_CONTACT}}
+- [ ] [[Guardrails policy]] customized (section 13 table, section 3a decision, regulated add-ons done or N/A) and signed
+- [ ] [[Data inventory]] filled from discovery
+- [ ] Access and sharing model, default and restricted channels set in [[Bot configuration]]
 - [ ] Auto-review / safety settings recorded
 
 ## 5. Skills
@@ -85,12 +91,27 @@ Kit: [[Onboarding/Department pilot kit/README|Department pilot kit]] ({{DEPT_NAM
 - [ ] Quick reference sent: the 5 most useful requests, how approvals look, who to call for help
 - [ ] Backup approver ({{BACKUP_CONTACT}}) trained
 - [ ] Support channel and response times confirmed ([[Service scope]])
+- [ ] [[Staff acceptable use guide]] filled in and sent to every user; signed copies or acknowledgements recorded
+- [ ] Owner can add and remove users, pause a routine, and disconnect a connector
+- [ ] Escalation and incident contacts confirmed ([[Guardrails policy]] section 11)
+- [ ] Provider access reduced per agreement to {{PROVIDER_RETAINED_ACCESS}}; recorded in [[Access list]]
+- [ ] 30-day review scheduled from [[30-day review template]]
 
 ## 8. Go-live
 - [ ] [[Go-live acceptance checklist]] complete and signed off
 - [ ] log.md line: go-live
 
+### Launch day
+- [ ] Access opened to the agreed user group only
+- [ ] Launch announcement (approved by the client) sent by client staff, not the bot
+- [ ] {{PROVIDER_IMPLEMENTER}} available for support during the agreed window
+- [ ] First routine runs watched; output in draft (handover week 1)
+- [ ] Issues logged in Inbox/ or [[log]]
+- [ ] Optional: tag the signed-off state in git (for example `v1.0-launch`)
+
 ## 9. After go-live
 - [ ] Week 2, 3, 4 handover stage changes recorded in [[Bot configuration]]
 - [ ] First monthly report delivered ([[Monthly client report]])
 - [ ] 30/60/90 day "after" numbers captured against the "before" numbers
+- [ ] Days 1 to 3: check in with {{BOT_OWNER}}; week 1: review routine output, approvals, and that no sensitive data landed in shared memory or channels; week 2: collect user feedback, fix quick wins, remove unused access
+- [ ] 30-day review held ([[30-day review template]]) and [[Guardrails policy]] reviewed

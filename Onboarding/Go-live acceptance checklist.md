@@ -20,6 +20,16 @@ Go-live means {{BOT_NAME}} starts real work under the gradual handover (week 1 d
 - [ ] [[Access list]] has a row for every credential the bot uses, with location only, no values. Proof:
 - [ ] Nothing is connected that discovery did not call for. Proof:
 - [ ] Client knows how to disconnect each connector and revoke the bot's repo access. Proof:
+- [ ] Off-limits systems are not connected; restricted channels are excluded. Proof:
+- [ ] MFA is on every account a connector uses. Proof:
+- [ ] Required vendor agreements (for example BAA or DPA) confirmed, or N/A. Proof:
+- [ ] A user without access can't reach the bot. Proof:
+- [ ] Scope test: the bot can't reach data outside its connector scopes. Proof:
+
+## Policy
+- [ ] [[Guardrails policy]] customized and signed, including the section 3a decision (default off). Proof:
+- [ ] Regulated-data add-ons (section 9) completed or marked N/A; compliance owner ({{COMPLIANCE_OWNER}}) signed if any apply. Proof:
+- [ ] [[Data inventory]] filled. Proof:
 
 ## Behavior
 - [ ] Bot reads GROK.md at the start of a session (ask it "what are your rules?" and compare). Proof:
@@ -38,10 +48,16 @@ Go-live means {{BOT_NAME}} starts real work under the gradual handover (week 1 d
 - [ ] {{PRIMARY_CONTACT}} completed the walkthrough and approved one real action. Proof:
 - [ ] {{BACKUP_CONTACT}} knows how to approve and how to pause the bot. Proof:
 - [ ] Support contact and response times are in [[Service scope]]. Proof:
+- [ ] [[Staff acceptable use guide]] distributed to every user. Proof:
+- [ ] Incident and escalation contacts confirmed and tested ({{INCIDENT_CONTACT}}). Proof:
+- [ ] {{BOT_OWNER}} can pause the bot, pause routines, and disconnect connectors. Proof:
+- [ ] Launch announcement drafted and approved by the client. Proof:
 
 ## Accepted exceptions
 - (item, why accepted, fix date)
 
-## Sign-off
-- Client: {{PRIMARY_CONTACT}}, date:
+## Sign-off (go / no-go)
+- Client: {{PRIMARY_CONTACT}}, go / no-go, date:
+- Bot owner: {{BOT_OWNER}}, go / no-go, date:
+- Compliance owner (if regulated data): {{COMPLIANCE_OWNER}}, go / no-go, date:
 - Provider: {{PROVIDER_NAME}}, date:

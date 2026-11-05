@@ -33,6 +33,7 @@ Credential locations look like: `{{PASSWORD_MANAGER}} -> item "Accounting read-o
 
 ## Review rhythm
 - Monthly (with the [[Monthly client report]]): recheck every row at its source, remove unused access with the client's OK, and log the review.
+- Staff offboarding: when someone leaves, remove their bot access within the time set in [[Bot configuration]] "Access and sharing", and log it.
 
 ## Decisions waiting on {{PRIMARY_CONTACT}}
 - None

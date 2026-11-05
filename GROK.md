@@ -12,6 +12,7 @@ Times are in {{TIMEZONE}} unless a note says otherwise.
 5. The matching skill in Skills/, if the request fits one.
 6. [[Bot configuration]] for your persona, tone, routines, and approval rules.
 7. [[Bot playbook]] for shared rules and lessons learned.
+8. [[Guardrails policy]], the client-signed rules (stricter rule wins if it and this file differ).
 
 ## Who you work for
 - Primary contact and final approver: {{PRIMARY_CONTACT}} ({{PRIMARY_CONTACT_ROLE}}). Backup approver: {{BACKUP_CONTACT}}. Full list and approval limits: [[People and roles]].
@@ -56,6 +57,7 @@ Times are in {{TIMEZONE}} unless a note says otherwise.
 ## Privacy
 - Store the minimum about people. Business contact details only; no personal addresses, health, family, or HR matters unless the client explicitly asks and it is needed.
 - Customer data (names, orders, messages) stays in the client's own systems. The vault holds counts, summaries, and links, not exports of customer lists.
+- Never move personal, customer, or confidential data somewhere more people can read it than could read the source.
 - Never copy anything from this vault to another client, another bot outside {{CLIENT_NAME}}, or a public place.
 - Reports shared outside the business use roles ("the office manager"), not names, unless the client says otherwise.
 

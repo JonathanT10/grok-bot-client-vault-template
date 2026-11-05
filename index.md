@@ -25,6 +25,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Discovery questionnaire]]: first conversation with {{PRIMARY_CONTACT}}
 - [[Onboarding checklist]]: accounts, connectors, routines, skills, vault repo, training
 - [[Go-live acceptance checklist]]: what must be true before {{BOT_NAME}} works unsupervised
+- [[Staff acceptable use guide]]: one-page dos and don'ts for every staff user
 - [[Onboarding/Department pilot kit/README|Department pilot kit]]: two-week, read-only, draft-only pilot for one department ({{DEPT_NAME}})
   - [[Department intake questionnaire]]: mailboxes, reports, trackers, meetings, hand-offs, time per task, access
   - [[Ranked opportunities]]: scoring rubric, ranked table, approval asks
@@ -37,6 +38,8 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Systems and connectors]]: every tool the business uses and how the bot reaches it
 - [[Access list]]: what the bot can reach and where each credential lives (never the value)
 - [[Bot configuration]]: name, persona, tone, routines, skills, approval rules
+- [[Guardrails policy]]: client-signed rules, approval matrix, incident steps, optional regulated-data add-ons
+- [[Data inventory]]: data types the business handles and whether the bot may see them
 - [[Service scope]]: what the service covers, response times, what is out of scope
 - [[Glossary]]: the business's own words, acronyms, product names
 - [[Bot playbook]]: shared rules and lessons learned
@@ -86,6 +89,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Incident note template]]
 - [[Change request template]]
 - [[Monthly report template]]
+- [[30-day review template]]: adoption, safety, changes, and decision 30 days after go-live
 - [[Fleet review]]: nightly fleet review file (saved to Reports/Fleet reviews/YYYY-MM-DD.md)
 - Time savings log.csv: header row for Reports/Time savings log.csv
 
