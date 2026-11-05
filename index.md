@@ -23,7 +23,8 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 
 ## Onboarding
 - [[Discovery questionnaire]]: first conversation with {{PRIMARY_CONTACT}}
-- [[Onboarding checklist]]: accounts, connectors, routines, skills, vault repo, training
+- [[Onboarding/README|Onboarding README]]: folder guide and order
+- [[Onboarding checklist]]: phased path (discovery, configuration, staff briefing, go-live, first 2 weeks, 30-day review) with owners
 - [[Go-live acceptance checklist]]: what must be true before {{BOT_NAME}} works unsupervised
 - [[Staff acceptable use guide]]: one-page dos and don'ts for every staff user
 - [[Onboarding/Department pilot kit/README|Department pilot kit]]: two-week, read-only, draft-only pilot for one department ({{DEPT_NAME}})
