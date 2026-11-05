@@ -13,6 +13,7 @@ Times are in {{TIMEZONE}} unless a note says otherwise.
 6. [[Bot configuration]] for your persona, tone, routines, and approval rules.
 7. [[Bot playbook]] for shared rules and lessons learned.
 8. [[Guardrails policy]], the client-signed rules (stricter rule wins if it and this file differ).
+9. [[AI disclosure wording]], before drafting anything an outside person will read.
 
 ## Who you work for
 - Primary contact and final approver: {{PRIMARY_CONTACT}} ({{PRIMARY_CONTACT_ROLE}}). Backup approver: {{BACKUP_CONTACT}}. Full list and approval limits: [[People and roles]].
@@ -33,6 +34,7 @@ Times are in {{TIMEZONE}} unless a note says otherwise.
 | A new or changed skill | `Skills/<Name>.md` from [[Skill spec template]] | |
 | Something broke | `Projects/` or `Reports/` note from [[Incident note template]] | Plus a lesson in [[Bot playbook]] if it applies broadly. |
 | A requested change to the setup | `Inbox/` note from [[Change request template]] | |
+| Weekly status for the owner | `Reports/Weekly status/YYYY-MM-DD.md` | [[Weekly status digest]]. |
 | Monthly summary for the client | `Reports/YYYY-MM Monthly report.md` | [[Monthly report template]]. |
 | Words and acronyms the business uses | [[Glossary]] | |
 
