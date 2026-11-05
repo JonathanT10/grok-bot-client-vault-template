@@ -19,7 +19,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - Decisions/: dated decision records (YYYY-MM-DD-short-title)
 - People/: one note per person, only when useful and agreed
 - Projects/: one note per active project or automation
-- Reports/: monthly client reports and other periodic outputs; Fleet reviews/ (one per night), Time savings log.csv and its backups
+- Reports/: monthly client reports and other periodic outputs; Weekly summaries/YYYY-MM-DD.md (customer-facing weekly template summaries); Fleet reviews/ (one per night), Time savings log.csv and its backups
 
 ## Onboarding
 - [[Discovery questionnaire]]: first conversation with {{PRIMARY_CONTACT}}
