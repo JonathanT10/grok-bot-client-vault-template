@@ -8,3 +8,5 @@ One line per meaningful change, newest at the bottom. Format:
 
 ## Entries
 - {{START_DATE}} {{PROVIDER_NAME}}: vault created from the Grok Bot client vault template for {{CLIENT_NAME}}.
+- 2026-11-05 17:00 (UTC) Template Builder: weekly summary path added -> Reports/Weekly summaries/2026-11-05.md
+- 2026-11-05 17:16 (UTC) Template Builder: Relay option added to the weekly summary -> Reports/Weekly summaries/2026-11-05.md

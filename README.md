@@ -47,7 +47,7 @@ This copy is generic. It contains no real client data. Everything client-specifi
 | `Decisions/` | Dated decision records (`YYYY-MM-DD-short-title.md`). |
 | `People/` | One note per person, only when context is useful and the client agreed. |
 | `Projects/` | One note per active project or automation. |
-| `Reports/` | Monthly client reports and other periodic outputs. `Reports/Fleet reviews/YYYY-MM-DD.md` holds the Coordinator's [[Nightly fleet review]]; `Reports/Time savings log.csv` is the one time-saved log (single writer {{REPORTS_BOT_NAME}}; rules in `Reference/Time savings log.md`), backed up to `Reports/Time savings backups/` before every write. |
+| `Reports/` | Monthly client reports and other periodic outputs. `Reports/Weekly summaries/YYYY-MM-DD.md` (customer-facing weekly template summaries). `Reports/Fleet reviews/YYYY-MM-DD.md` holds the Coordinator's [[Nightly fleet review]]; `Reports/Time savings log.csv` is the one time-saved log (single writer {{REPORTS_BOT_NAME}}; rules in `Reference/Time savings log.md`), backed up to `Reports/Time savings backups/` before every write. |
 | `scripts/` | Setup helpers: `fill-placeholders.sh` (placeholder fill and check) and `check-no-client-data.sh` (client-data and secrets scan, with `denylist.example.txt` showing the denylist format), and `time-savings-summary.sh` (totals net minutes from the time-savings log, excluding rows without evidence, overlaps, and duplicates; estimates shown separately). Not used by the bot day to day. |
 | `.obsidian/` | Minimal Obsidian config: daily notes in `Daily/`, templates from `Templates/`. No community plugins are bundled; add a git sync plugin per device if the client wants one. |
 
