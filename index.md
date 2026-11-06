@@ -42,6 +42,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Guardrails policy]]: client-signed rules, approval matrix, incident steps, optional regulated-data add-ons
 - [[Data inventory]]: data types the business handles and whether the bot may see them
 - [[Data handling notice]]: client-facing one-pager on what the platform can see, where data lives, retention, and who to ask
+- [[Incident notification decision aid]]: checklist for whether anyone outside the company must be notified after an incident (not legal advice)
 - [[Service scope]]: what the service covers, response times, what is out of scope
 - [[Glossary]]: the business's own words, acronyms, product names
 - [[Bot playbook]]: shared rules and lessons learned

@@ -113,7 +113,7 @@ Complete each section that the [[Discovery questionnaire]] section 1b marks as a
 1. **Stop:** pause the routine or bot, or disconnect the connector. Who can: {{BOT_OWNER}}, {{BOT_MANAGERS}}, {{IT_ADMIN}}.
 2. **Report:** tell {{INCIDENT_CONTACT}} and {{PROVIDER_NAME}} ({{PROVIDER_CONTACT}}) within (time limit).
 3. **Contain:** rotate exposed credentials, recall or correct messages where possible, restore deleted items.
-4. **Assess:** was regulated data involved, and do notification obligations apply? Owner: {{COMPLIANCE_OWNER}} (with counsel or insurer as the client decides).
+4. **Assess:** was regulated data involved, and do notification obligations apply? Owner: {{COMPLIANCE_OWNER}} (with counsel or insurer as the client decides). Use [[Incident notification decision aid]].
 5. **Fix and record:** a note from [[Incident note template]], a [[log]] line, and a lesson in [[Bot playbook]] if it applies broadly.
 
 | Level | Who | When |

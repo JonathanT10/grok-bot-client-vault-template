@@ -30,6 +30,7 @@ Owner:
 
 ## Client communication
 - Told: who, when, how
+- If notification outside the company may apply, work [[Incident notification decision aid]] before promising or sending notice.
 
 ## Closed
 - Date, by whom, proof:

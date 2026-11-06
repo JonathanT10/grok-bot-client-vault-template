@@ -136,7 +136,7 @@ Kit: [[Onboarding/Department pilot kit/README|Department pilot kit]] ({{DEPT_NAM
 - [ ] Support channel and response times confirmed ([[Service scope]])
 - [ ] [[Staff acceptable use guide]] filled in and sent to every user; signed copies or acknowledgements recorded
 - [ ] Owner can add and remove users, pause a routine, and disconnect a connector
-- [ ] Escalation and incident contacts confirmed ([[Guardrails policy]] section 11)
+- [ ] Escalation and incident contacts confirmed ([[Guardrails policy]] section 11); [[Incident notification decision aid]] reviewed with {{COMPLIANCE_OWNER}}
 - [ ] Provider access reduced per agreement to {{PROVIDER_RETAINED_ACCESS}}; recorded in [[Access list]]
 - [ ] 30-day review scheduled from [[30-day review template]]
 
