@@ -45,7 +45,7 @@ The goal for week one: by Friday the service is real enough to sell. Prices are 
 - [ ] No real client or prospect data anywhere in the demo vault
 
 ## Day 3: Sales materials and demo script
-**Deliverables:** final one-pager and pricing PDFs, a 5-6 minute demo script, a one-page discovery call guide.
+**Deliverables:** final one-pager and pricing PDFs, a ~10-minute demo script, a one-page discovery call guide.
 
 - Render Sales/Pitch one-pager.md and Sales/Pricing sheet.md with the filled values; read both aloud; fix anything that sounds like hype. Remove the optional measured-result line until there is a real one.
 - Write the demo script (rehearse twice, time it):

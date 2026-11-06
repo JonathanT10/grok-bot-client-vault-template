@@ -69,7 +69,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Business plan]]: offer, target customers, packages, capacity and revenue formulas, costs, risks, 90-day milestones, KPIs
 - [[First week plan]]: day-by-day launch plan with deliverables and done-checklists
 - [[Customer acquisition plan]]: ideal customer, ranked channels, outreach templates, discovery script, funnel, objections, 30/60/90 cadence
-- [[Demo script]]: timed demo (about 5:45) with talk track, what to show, the pilot ask, and likely questions
+- [[Demo script]]: timed demo (about 10 minutes) with talk track, what to show, the pilot ask, and likely questions
 - [[Business/Demo vault/README|Demo vault]]: filled example vault for the fictional Example Landscaping LLC (example data only); copy it out to demo
 - [[Business/Demo vault/Department pilot - Accounts payable/README|AP department pilot example]]: the department pilot kit filled for the fictional AP team (example data only)
 
