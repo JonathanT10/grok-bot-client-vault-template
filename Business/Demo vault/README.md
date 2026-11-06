@@ -19,6 +19,8 @@ A small, filled-in example of what a populated client vault looks like after a 3
 | `Projects/Routine - Friday crew schedule draft.md` | A routine spec at handover week 2 | 3 |
 | `Reports/Briefs/2026-03-02 Weekly brief.md` | A sourced brief with confirmed / reported labels | 4 |
 | `Reports/2026-02 Monthly report.md` | A monthly report with sources and measured time saved | Questions |
+| `Reference/Guardrails policy.md` | Filled client-signed guardrails (draft-first, ACTION/TARGET ask format, §3a routine posts left OFF) | Likely questions (safety / "can it send on its own?") |
+| `Onboarding/Staff acceptable use guide.md` | Filled staff handout (Do/Don't for crew schedule drafts and the shared mailbox) | Likely questions (safety / staff) |
 | `Department pilot - Accounts payable/` | A filled two-week department pilot for the fictional AP team, from the blank kit in `Onboarding/Department pilot kit/` | Questions, follow-up demo |
 
 ## Copy it out for a demo

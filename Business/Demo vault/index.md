@@ -8,6 +8,7 @@ Map of the Example Landscaping LLC demo vault. Ops Assistant reads this right af
 - [[Business profile]]: what Example Landscaping LLC does, hours, customers, before / after numbers
 - [[People and roles]]: who is who, who can approve what
 - [[Access list]]: what the bots can reach and where each credential lives (never the value)
+- [[Guardrails policy]]: client-signed rules for what Ops Assistant may do, what needs approval, and what it must never do
 
 ## Daily
 - [[2026-03-04]]: pilot readout prep, an approval request, open items
@@ -24,6 +25,9 @@ Map of the Example Landscaping LLC demo vault. Ops Assistant reads this right af
 
 ## Department pilot (accounts payable)
 - [[Department pilot - Accounts payable/README|AP department pilot]]: a filled two-week department pilot for the fictional AP team (intake, ranked opportunities, three routines, measurement sheet, readout)
+
+## Onboarding
+- [[Staff acceptable use guide]]: short Do/Don't handout for staff who use Ops Assistant (questions to Alex Sample)
 
 ## Log
 - [[log]]
