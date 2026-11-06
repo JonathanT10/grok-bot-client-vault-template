@@ -47,7 +47,7 @@ Key notes: [[Discovery questionnaire]] · [[Guardrails policy]] · [[Staff accep
 - [ ] Day 3: top 3 automations picked and ranked with the Approver
 - [ ] [[AI disclosure wording]] chosen: how outside people are told they are dealing with an AI assistant
 - [ ] [[Personal device rules]] decided (or marked not used)
-- [ ] Data handling explained to the client: what the bot can see, where the vault lives, who can read it
+- [ ] Data handling explained to the client ([[Data handling notice]]): what the bot can see, where the vault lives, who can read it
 
 # Phase B: Configuration (week 1 day 4 to week 2)
 

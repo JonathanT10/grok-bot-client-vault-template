@@ -35,6 +35,7 @@ Working notes on what the service covers. The signed agreement is the binding do
 | Monthly report | | x |
 
 ## Data handling
+- Client-facing one-pager: [[Data handling notice]] (what the platform can see, where data lives, retention, who to ask).
 - Where data lives: client's own systems, the bot's box, and the private repo `{{VAULT_REPO}}`.
 - Who can read the vault: client, provider, bot.
 - At end of service: (repo ownership stays with the client; provider access and bot access removed; box files cleared on request)
