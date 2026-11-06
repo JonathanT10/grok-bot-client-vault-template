@@ -18,7 +18,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - Daily/: one note per day, named YYYY-MM-DD
 - Decisions/: dated decision records (YYYY-MM-DD-short-title)
 - People/: one note per person, only when useful and agreed
-- Projects/: one note per active project or automation
+- Projects/: one note per active project or automation; Incidents/ for open and closed incident notes (`YYYY-MM-DD-short-title.md`)
 - Reports/: monthly client reports, Weekly status/ (one per week) and other periodic outputs; Fleet reviews/ (one per night), Time savings log.csv and its backups
 
 ## Onboarding
@@ -85,6 +85,7 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 - [[Monthly client report]]: what the bot did this month, with sources
 - [[Weekly status digest]]: the owner's five-minute weekly read: done, open, waiting on them
 - [[Nightly fleet review]]: Coordinator's nightly read of every bot's chat for repeat mistakes, with numbered fixes
+- [[Incident response]]: Stop → Report → Contain → Assess → Fix and record (Guardrails §11); drafts only for outside notice
 
 ## Templates
 - [[Daily note template]]
