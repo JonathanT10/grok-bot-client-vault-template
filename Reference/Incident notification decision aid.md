@@ -43,13 +43,15 @@ Prefer named roles already in [[People and roles]]. Rare contacts (outside couns
 
 ## Time limits to check
 
-Fill from **this client's** counsel and contracts. The windows below are common ones people verify — **not advice**, and not a substitute for counsel.
+Fill from **this client's** counsel, contracts, and policies. This template gives **no** deadlines: notice windows differ by jurisdiction, sector, data type, contract, and policy, and some run from discovery while others run from confirmation. Leave a row blank until counsel, the contract, or the policy names the window, and record the source.
 
-| Obligation source | Window to verify (client counsel fills) | Applies? | Due by (date/time, client TZ) |
-|---|---|---|---|
-| Regulator / statute | Confirm for this client; many breach-notice statutes use windows on the order of **24–72 hours** from discovery — verify the actual rule that applies | | |
-| Customer / partner contract | Per the notice clause (hours or business days) | | |
-| Cyber insurer / policy | Per the policy (often prompt notice of a claim or incident) | | |
+| Obligation source | Window (as stated by source) | Source (counsel name/date, clause, policy §) | Applies? | Due by (date/time, client TZ) |
+|---|---|---|---|---|
+| Regulator / statute | _(counsel fills)_ | | | |
+| Customer / partner contract | _(from the notice clause)_ | | | |
+| Cyber insurer / policy | _(from the policy)_ | | | |
+
+Do not estimate a window from memory or the web. If no source has answered yet, write "unknown — asked <who> <when>".
 
 ## Decision record
 

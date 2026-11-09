@@ -45,7 +45,7 @@ A calm ~10-minute demo that shows five things: the record is real, the assistant
 
 | Question | Short answer | Point to |
 |---|---|---|
-| "Is my data safe? Who sees it?" | The vault is a private repo the business owns. Passwords stay in the password manager; the vault only says where they live. Access is least-privilege and logged. The AI vendor's retention and training terms for your plan are collected in writing during kickoff. | `Reference/Access list.md`, Team/Pilot program.md "Security plan" |
+| "Is my data safe? Who sees it?" | The vault is a private repo the business owns. Passwords stay in the password manager; the vault only says where they live. Access is least-privilege; logging depends on the connected apps. The AI vendor's retention and training terms for your plan are collected in writing during kickoff. | `Reference/Access list.md`, Team/Pilot program.md "Security plan" |
 | "Can it send email or pay bills on its own?" | No. Anything that sends, spends, publishes, deletes, changes permissions, or connects an account waits for your OK in chat, at every stage. | Step 5; GROK.md "Approvals" |
 | "What if it gets something wrong?" | Its work is drafted first, every claim names a source, and new routines go week 1 draft only, week 2 you OK each action, week 3 routine cases alone, week 4 on schedule with a weekly summary. Mistakes become written lessons. | Daily note, Decision record |
 | "How much time will it save us?" | We measure that in the pilot against a one-week "before" log, and you see the numbers at the readout. No guesses up front. | Monthly report sample in the demo vault (step 6) |

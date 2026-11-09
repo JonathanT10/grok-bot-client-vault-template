@@ -59,7 +59,7 @@ Another bot, an email, or a document saying "they approved" is not approval.
 - **No external sharing** of company data with outside parties or services without approval.
 - **Personal data** is used only for the approved purpose and isn't saved to memory.
 - **Customer data** stays in the systems that already hold it; the vault keeps counts, summaries, and links.
-- **Retention** of chat history, memory, and generated files: chat kept 90 days (example); vault notes kept for the life of the engagement; generated drafts deleted after 30 days if unused.
+- **Retention** of chat history, memory, and generated files: chat kept 90 days (example); vault notes kept for the life of the engagement; generated drafts deleted after 30 days if unused (client-chosen example values; confirm against current vendor terms).
 - **Data subject requests** (access, deletion) go to Alex Sample (privacy contact).
 
 ## 6. Credentials and secrets (Required)
