@@ -107,4 +107,8 @@ Map of the {{CLIENT_NAME}} vault. {{BOT_NAME}} reads this right after [[GROK]]. 
 ## Active projects
 - [[Routine - Nightly fleet review]]: proposed starter routine, owner {{COORDINATOR_BOT_NAME}} (delete if the client runs one bot)
 - [[Routine - Weekly status digest]]: proposed starter routine, owner {{RECORD_KEEPER_BOT_NAME}}
+- [[Recipe - Azure Backup posture check]]: untested recipe, read-only report on backup health and deletion events; owner {{IT_OWNER}}
+- [[Recipe - Azure VM patch check]]: untested recipe, read-only weekly view of VM patch records and OS version; owner {{IT_OWNER}}
+- [[Recipe - Known exploited vulnerabilities watch]]: untested recipe, CISA KEV feed checked against the approved product list; owner {{IT_OWNER}}
+- [[Recipe - Jira SLA and aging digest]]: untested recipe, read-only digest of SLA-breached and idle tickets; owner {{PRIMARY_CONTACT}}
 - (add one line per project with a link and an owner)
